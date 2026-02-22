@@ -216,12 +216,14 @@ class Yatzy:
             if (tallies[i] == 2): 
                 _2 = True
                 _2_at = i+1
+                print(_2_at)
             
 
         for i in range(6):
             if (tallies[i] == 3): 
                 _3 = True
                 _3_at = i+1
+                print(_3_at)
             
 
         if (_2 and _3):
